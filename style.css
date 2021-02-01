@@ -1,0 +1,397 @@
+.page {
+min-width: 1100px;
+max-width: 1600px;
+width: 100%;
+height: 100%;
+font-family: Helvetica Neue, Arial, sans-serif;
+}
+
+.header {
+min-height: 600px;
+max-height: 756px;
+background-size: auto;
+position: relative;
+display: flex;
+background-color: #f2f2f2;
+overflow: hidden;
+}
+
+.logo {
+  position: absolute;
+  z-index: 2;
+  margin-top: 30px;
+  margin-left: 64px;
+}
+
+.logo_place_header {
+height: 32px;
+width: 183px;
+display: block;
+}
+
+.header__title {
+position: absolute;
+top: 50%;
+margin-top: -0.575em;
+margin-left: 64px;
+width: 730px;
+height: 300px;
+z-index: 3;
+font-size: 102px;
+font-weight: bold;
+line-height: 96px;
+}
+
+.header__subtitle {
+position:absolute;
+left: 64px;
+bottom: 30px;
+width: 388px;
+height: 104px;
+font-size: 18px;
+line-height: 25px;
+z-index: 3;
+
+}
+
+.header__main-illustration {
+z-index: 2;
+position: absolute;
+right: 0;
+bottom: 0;
+}
+
+.header__link {
+  color: #2f80ed;
+}
+
+#header__square-pic {
+width: 568px;
+height: 568px;
+background-color: #2f80ed;
+position: absolute;
+top: 64px;
+right: 0;
+}
+
+.content {
+  position: relative;
+}
+
+.description {
+padding-top: 100px;
+padding-bottom: 100px;
+position:relative;
+width: 100%;
+}
+
+.description__two-columns {
+width: 80%;
+display: flex;
+justify-content: left;
+align-items: center;
+margin: 0 auto;
+min-height: 422px;
+}
+
+.description__two-columns_brief {
+width: 175px;
+line-height: 1,2px;
+font-size: 18px;
+font-weight: normal;
+color: #2f80ed;
+min-height: 422px;
+}
+
+.description__two-columns_main-text {
+  width: 80%;
+  min-width: 784px;
+  line-height: 30px;
+  display: inline-flexbox;
+  text-align: left;
+  margin-left: 30px;
+}
+
+.description__two-columns_span-accent {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.description__two-columns_paragrapf {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  grid-row-gap: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: block;
+  flex: 1;
+}
+
+.digits {
+padding-top: 100px;
+padding-bottom: 100px;
+position: relative;
+width: 100%;
+}
+
+.section-title {
+width: 60%;
+line-height: 1,15px;
+font-size: 60px;
+font-weight: bold;
+text-align: center;
+margin: 0 auto;
+margin-bottom: 20px;
+}
+
+.section-subtitle {
+margin-top: 20px;
+width: 60%;
+line-height: 34px;
+font-size: 24px;
+font-weight: normal;
+text-align: center;
+margin: 0 auto;
+}
+
+.table {
+width: 1100px;
+box-sizing: border-box;
+display: flex;
+flex-wrap: wrap;
+margin: 0 auto;
+}
+
+.table_cell {
+width: 250px;
+line-height: 1,15px;
+font-size: 24px;
+font-weight: bold;
+align-items: center;
+margin: 0 auto;
+margin-top: 60px;
+}
+
+.table_heading {
+margin-bottom: 20px;
+list-style-type: none;
+text-align: left;
+}
+
+.table_text {
+margin-bottom: 20px;
+line-height: 1,2px;
+font-size: 18px;
+font-weight: normal;
+list-style-type: none;
+}
+
+.feynman {
+padding-top: 100px;
+width: 100%;
+min-height: 790px;
+background: url('how-to-learn/images/feynman.png') #f2f2f2 no-repeat;
+background-position: left bottom;
+background-size: 867px 637px;
+}
+
+.feynman__image { 
+z-index: 0;
+position: absolute;
+margin-left: 0;
+margin-bottom: 0;
+}
+
+.feynman__title {
+margin-bottom: 70px;
+line-height: 1,15px;
+font-size: 120px;
+font-weight: bold;
+text-align: center;
+width: 648px;
+margin: 0 auto;
+}
+
+.feynman__subtitle {
+margin-top: 70px;
+line-height: 51px;
+font-size: 36px;
+font-weight: normal;
+width: 400px;
+text-align: center;
+margin: 70px auto;
+}
+
+.feynman__link {
+line-height: 51px;
+font-size: 36px;
+font-weight: normal;
+position: absolute;
+top: 50%;
+right: 48px;
+}
+
+.kaufman {
+padding-top: 90px;
+padding-bottom: 90px;
+background: #1f1f1f;
+position: relative;
+overflow: hidden;
+}
+
+.section-title_theme_dark {
+  width: 60%;
+  line-height: 1,15px;
+  font-size: 60px;
+  font-weight: bold;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  color: white;
+  z-index: 2;
+  position: relative;
+  }
+  
+  .section-subtitle_theme_dark {
+    margin-top: 20px;
+    width: 60%;
+    line-height: 34px;
+    font-size: 24px;
+    font-weight: normal;
+    text-align: center;
+    margin: 0 auto;
+    color: white;
+    z-index: 2;
+    position: relative;
+  }
+  
+  .table_theme_dark {
+    width: 1100px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    position: relative;
+    z-index: 2;
+  }
+  
+  .table_cell_theme_dark {
+    width: 200px;
+    font-weight: bold;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 60px;
+  }
+  
+  .table_heading_theme_dark {
+    margin-bottom: 20px;
+    line-height: 1,15px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: left;
+    color: white;
+  }
+  
+  .table_text_theme_dark {
+    margin-bottom: 20px;
+    line-height: 1,2px;
+    font-size: 18px;
+    font-weight: normal;
+    color: white;
+  }
+
+  .kaufman__triangle {
+    right: -210px;
+    z-index: 1;
+    position: absolute;
+    top: 0;
+  }
+
+a {
+  text-decoration: none;
+  color: white;
+}
+.footer {
+background: #1f1f1f;
+min-height: 350px;
+padding-top: 60px;
+padding-bottom: 40px;
+width: 100%;
+}
+
+.footer__columns {
+width: 90%;
+color: white;
+margin: 0 auto;
+position: relative;
+display: flex;
+flex-wrap: wrap;
+box-sizing: border-box;
+min-height: 250px;
+justify-content: space-between;
+}
+
+.footer__column_content_copyright {
+flex-basis: 711px;
+}
+
+.logo_place_footer {
+  height: 35px;
+  width: 183px;
+  display: block;
+  margin-bottom: 154px;
+}
+
+.footer__author {
+display: inline-block;
+margin-top: 18px;
+margin-bottom: 18px;
+line-height: 25px;
+font-size: 18px;
+}
+
+.footer__column_info{
+  margin: 0;
+  position: relative;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+
+.footer__column-heading {
+display: flex;
+flex-wrap: wrap;
+line-height: 30px;
+font-size: 18px;
+font-weight: bold;
+}
+
+.footer__column-links {
+  flex-wrap: wrap;
+  line-height: 30px;
+  font-size: 18px;
+}
+
+.footer__column-link {
+  display: block;
+}
+
+.footer__column_social {
+  margin: 0;
+  position: relative;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  right: 0;
+  width: 101px;
+}
+
+.footer__social-icon {
+display: block;
+width: 16px;
+height: 16px;
+margin-right: 10px;
+flex-wrap: wrap;
+box-sizing: border-box;
+}
