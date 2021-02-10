@@ -1,6 +1,7 @@
     .page {
         min-width: 1100px;
         max-width: 1600px;
+        margin: 0 auto;
         width: 100%;
         height: 100%;
         font-family: Helvetica Neue, Arial, sans-serif;
@@ -250,7 +251,7 @@
         position: absolute;
         top: 50%;
         right: 48px;
-        text-decoration: #2f80ed;
+        color: #2f80ed;
         text-decoration: none;
     }
     
@@ -270,6 +271,7 @@
         z-index: 1;
         position: absolute;
         top: 0;
+        background-size: contain;
     }
     
     .section-title_theme_dark {
@@ -303,7 +305,6 @@
     }
     
     .table__text_theme_dark {
-        margin-bottom: 20px;
         color: white;
     }
     
@@ -312,6 +313,7 @@
         padding-top: 60px;
         padding-bottom: 40px;
         background-color: #1f1f1f;
+        box-sizing: border-box;
     }
     
     .footer__columns {
@@ -356,12 +358,16 @@
     }
     
     .footer__column-links {
+        padding-inline-start: 0;
+        margin-block-start: 0;
+        margin-block-end: 0;
         margin-top: 20px;
         margin-bottom: 16px;
         line-height: 30px;
         font-weight: normal;
         box-sizing: content-box;
         width: 100%;
+        list-style-type: none;
     }
     
     .footer__social-icon {
@@ -370,6 +376,8 @@
     }
     
     .footer__author {
+        margin-block-end: 0;
+        margin-block-start: 0;
         margin-top: 18px;
         margin-bottom: 18px;
         line-height: 25px;
