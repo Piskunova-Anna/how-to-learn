@@ -330,6 +330,7 @@
         color: #f2f2f2;
         font-size: 18px;
         display: flex;
+        line-height: 30px;
     }
     
     .footer__column_content-copyright {
@@ -353,7 +354,6 @@
     }
     
     .footer__column-heading {
-        line-height: 30px;
         font-weight: bold;
     }
     
@@ -363,11 +363,15 @@
         margin-block-end: 0;
         margin-top: 20px;
         margin-bottom: 16px;
-        line-height: 30px;
         font-weight: normal;
         box-sizing: content-box;
         width: 100%;
         list-style-type: none;
+    }
+    
+    .footer__column-link {
+        text-decoration: none;
+        color: #f2f2f2;
     }
     
     .footer__social-icon {
