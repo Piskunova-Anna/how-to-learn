@@ -1,0 +1,7 @@
+.cards__description {
+    min-width: 240px;
+    align-items: center;
+    line-height: 23px;
+    font-size: 18px;
+    font-weight: normal;
+}

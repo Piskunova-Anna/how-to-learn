@@ -1,0 +1,4 @@
+.transition:hover {
+    opacity: 0.4;
+    transition: opacity 2s 1s linear 3s;
+}
