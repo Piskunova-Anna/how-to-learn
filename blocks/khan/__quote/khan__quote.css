@@ -1,4 +1,6 @@
 .khan__quote {
+    margin-inline-start: 0;
+    margin-inline-end: 0;
     width: 790px;
     margin-left: 0;
     margin-block-start: 0;

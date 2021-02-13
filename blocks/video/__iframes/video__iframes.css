@@ -6,9 +6,12 @@
     flex-direction: row;
     list-style-type: none;
     position: relative;
-    max-width: 1100px;
     display: flex;
     box-sizing: border-box;
     z-index: 2;
-    justify-content: space-between;
+    justify-content: center;
+}
+
+.video__iframes:last-child {
+    margin-right: 0;
 }
